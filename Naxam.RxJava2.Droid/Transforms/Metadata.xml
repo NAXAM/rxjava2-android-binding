@@ -1,298 +1,741 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<add-node path="/api/package[@name='io.reactivex.subjects']/class[@name='Subject']">
-		<method abstract="true" deprecated="not deprecated" final="false" name="onNext" native="false" return="void" static="false" synchronized="false" visibility="public">
-			<parameter name="p0" type="T">
-			</parameter>
-		</method>
-	</add-node>
-	<add-node path="/api/package[@name='io.reactivex.observers']/class[@name='DefaultObserver']">
-		<method abstract="true" deprecated="not deprecated" final="false" name="onNext" native="false" return="void" static="false" synchronized="false" visibility="public">
-			<parameter name="p0" type="T">
-			</parameter>
-		</method>
-	</add-node>
-	<add-node path="/api/package[@name='io.reactivex.observers']/class[@name='DisposableObserver']">
-		<method abstract="true" deprecated="not deprecated" final="false" name="onNext" native="false" return="void" static="false" synchronized="false" visibility="public">
-			<parameter name="p0" type="T">
-			</parameter>
-		</method>
-	</add-node>
-	<add-node path="/api/package[@name='io.reactivex.internal.observers']/class[@name='BasicFuseableObserver']">
-		<method abstract="true" deprecated="not deprecated" final="false" name="onNext" native="false" return="void" static="false" synchronized="false" visibility="public">
-			<parameter name="p0" type="T">
-			</parameter>
-		</method>
-	</add-node>
-	<add-node path="/api/package[@name='io.reactivex.internal.observers']/class[@name='BlockingBaseObserver']">
-		<method abstract="true" deprecated="not deprecated" final="false" name="onNext" native="false" return="void" static="false" synchronized="false" visibility="public">
-			<parameter name="p0" type="T">
-			</parameter>
-		</method>
-	</add-node>
-	<add-node path="/api/package[@name='io.reactivex.internal.observers']/class[@name='DeferredScalarObserver']">
-		<method abstract="true" deprecated="not deprecated" final="false" name="onNext" native="false" return="void" static="false" synchronized="false" visibility="public">
-			<parameter name="p0" type="T">
-			</parameter>
-		</method>
-	</add-node>
-	<add-node path="/api/package[@name='io.reactivex.observers']/class[@name='ResourceObserver']">
-		<method abstract="true" deprecated="not deprecated" final="false" name="onNext" native="false" return="void" static="false" synchronized="false" visibility="public">
-			<parameter name="p0" type="T">
-			</parameter>
-		</method>
-	</add-node>
-	<add-node path="/api/package[@name='io.reactivex.internal.observers']/class[@name='QueueDrainObserver']">
-		<method abstract="true" deprecated="not deprecated" final="false" name="onNext" native="false" return="void" static="false" synchronized="false" visibility="public">
-			<parameter name="p0" type="T">
-			</parameter>
-		</method>
-	</add-node>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDelay.DelayObserver.OnError']" name="managedName">ErrorRunnable</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDelay.DelayObserver.OnNext']" name="managedName">NextRunnable</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDelay.DelayObserver.OnComplete']" name="managedName">CompleteRunnable</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='AbstractObservableWithUpstream']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.subscriptions']/class[@name='FullArbiterPad1']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.subscriptions']/class[@name='FullArbiterWip']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.subscriptions']/class[@name='FullArbiterMissed']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.subscriptions']/class[@name='FullArbiterPad0']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.subscriptions']/class[@name='FullArbiterPad2']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.observers']/class[@name='QueueDrainSubscriberPad2']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.observers']/class[@name='QueueDrainSubscriberWip']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.observers']/class[@name='QueueDrainSubscriberPad0']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='AbstractFlowableWithUpstream']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='AbstractMaybeWithUpstream']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.disposables']/class[@name='FullArbiterPad1']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.disposables']/class[@name='FullArbiterPad0']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.disposables']/class[@name='FullArbiterWip']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.schedulers']/class[@name='AbstractDirectTask']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.subscribers']/class[@name='QueueDrainSubscriberPad4']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.subscribers']/class[@name='QueueDrainSubscriberPad3']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.subscribers']/class[@name='QueueDrainSubscriberPad2']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.subscribers']/class[@name='QueueDrainSubscriberPad0']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.subscribers']/class[@name='QueueDrainSubscriberWip']" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.subscribers']/class[@name='TestSubscriber']/method[@name='assertNotSubscribed' and count(parameter)=0]" name="managedName">TestAssertNotSubscribed</attr>
-	<attr path="/api/package[@name='io.reactivex.subscribers']/class[@name='TestSubscriber']/method[@name='assertSubscribed' and count(parameter)=0]" name="managedName">TestAssertSubscribed</attr>
-    <attr path="/api/package[@name='io.reactivex.observers']/class[@name='TestObserver']/method[@name='assertNotSubscribed' and count(parameter)=0]" name="managedName">TestAssertNotSubscribed</attr>
-    <attr path="/api/package[@name='io.reactivex.observers']/class[@name='TestObserver']/method[@name='assertSubscribed' and count(parameter)=0]" name="managedName">TestAssertSubscribed</attr>
-	<attr path="/api/package[@name='io.reactivex']/class[@name='Observable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.subjects']/class[@name='AsyncSubject']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.subjects']/class[@name='BehaviorSubject']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.subjects']/class[@name='ReplaySubject']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableAll']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super java.lang.Boolean&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableBufferExactBoundary']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableBufferTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableAny']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super java.lang.Boolean&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableCache']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableCollect']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableBuffer']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableBufferBoundary']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableConcatMapEager']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.subjects']/class[@name='UnicastSubject']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableBufferBoundarySupplier']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDistinct']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDistinctUntilChanged']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDoAfterNext']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex']/class[@name='Completable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.subjects']/class[@name='CompletableSubject']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableCache']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableCreate']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableDefer']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableDelay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableDisposeOn']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFlattenIterable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableEmpty']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super java.lang.Object&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex']/class[@name='Single']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.SingleObserver&lt;? super java.lang.Long&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex']/class[@name='Flowable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDoFinally']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDoOnLifecycle']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.processors']/class[@name='AsyncProcessor']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFromPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDetach']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFromUnsafeSource']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFlatMapMaybe']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFlatMapSingle']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.processors']/class[@name='BehaviorProcessor']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableJoin']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableCreate']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableGroupBy.GroupedUnicast']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableAll']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super java.lang.Boolean&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableGroupJoin']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableJust']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableHide']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFlatMapCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.processors']/class[@name='ReplayProcessor']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableAny']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super java.lang.Boolean&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFlatMapCompletableCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.processors']/class[@name='UnicastProcessor']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableRepeatWhen']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableNever']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super java.lang.Object&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableObserveOn']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableReplay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableRetryWhen']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservablePublish']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableBufferBoundary']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableReplay.MulticastReplay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableReplay.Replay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservablePublishSelector']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableRange']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super java.lang.Integer&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableRangeLong']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super java.lang.Long&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableDoFinally']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableDoOnEvent']/method[@name='subscrib eActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableBufferBoundarySupplier']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableError']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableErrorSupplier']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromAction']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromCallable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromObservable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableBufferExactBoundary']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromRunnable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromSingle']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromUnsafeSource']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableHide']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableLift']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableBufferTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableNever']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableObserveOn']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableOnErrorComplete']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletablePeek']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableResumeNext']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableSubscribeOn']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableTimer']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableCache']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableToFlowable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableToObservable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableCollect']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableUsing']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableConcatArray']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeConcatArray']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDematerialize']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDetach']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeConcatArrayDelayError']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDistinct']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeConcatIterable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableConcatMap']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableSerialized']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDistinctUntilChanged']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDoAfterNext']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDoFinally']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.schedulers']/class[@name='SchedulerWhen.CreateWorkerFunction.WorkerCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableConcatMapEager']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDoOnEach']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDoOnLifecycle']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableElementAt']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableConcatMapEagerPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableTake']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableConcatMapPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableCount']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super java.lang.Long&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeFlatMapCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeFlatMapIterableFlowable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFilter']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeFlatMapIterableObservable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableDoOnEvent']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFlatMap']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFlatMapSingle']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFlatMapCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFlatMapCompletableCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFromObservable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFlatMapMaybe']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFromPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFlatMapPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableGroupJoin']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableGroupBy']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.flowables.GroupedFlowable&lt;K, V&gt;&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDebounce']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableGroupBy.GroupedUnicast']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDebounceTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableJust']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableHide']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableMap']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDelay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableMapNotification']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableIgnoreElements']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnBackpressureDrop']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableMapPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableMaterialize']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.Notification&lt;T&gt;&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnBackpressureError']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableIgnoreElementsCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnBackpressureLatest']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnErrorNext']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnErrorReturn']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnBackpressureBuffer']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowablePublishMulticast']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowablePublish']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowablePublishMulticast.MulticastProcessor']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnBackpressureBufferStrategy']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableScan']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableWithLatestFromMany']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.parallel']/class[@name='ParallelJoin']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableScanSeed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableReplay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableJoin']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTake']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableReplay.ConnectableFlowableReplay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakeLast']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSerialized']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakeLastOne']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSingle']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakeLastTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakePublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakeUntil']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeMergeArray']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSkip']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakeUntilPredicate']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSkipLast']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeIgnoreElementCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakeWhile']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSkipLastTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableThrottleFirstTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSamplePublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSkipUntil']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTimeInterval']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.schedulers.Timed&lt;T&gt;&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSkipWhile']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTimeout']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableReduce']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.parallel']/class[@name='ParallelReduceFull']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSampleTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTimeoutTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSwitchIfEmpty']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.parallel']/class[@name='ParallelSortedJoin']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSwitchMap']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableWindowBoundary']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.Flowable&lt;T&gt;&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableWindowBoundarySupplier']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.Flowable&lt;T&gt;&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableWindowBoundarySelector']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.Flowable&lt;T&gt;&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableWindowTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.Flowable&lt;T&gt;&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.single']/class[@name='SingleFlatMapCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableToList']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.single']/class[@name='SingleFlatMapIterableFlowable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableWithLatestFrom']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.single']/class[@name='SingleFlatMapIterableObservable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableUnsubscribeOn']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableWithLatestFromMany']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeToFlowable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeToObservable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">public</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.ArrayListCapacityCallable']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.HashSetCallable']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.schedulers']/class[@name='Schedulers.ComputationTask']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.schedulers']/class[@name='Schedulers.IOTask']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.schedulers']/class[@name='Schedulers.NewThreadTask']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.schedulers']/class[@name='Schedulers.SingleTask']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-    <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableInternalHelper.BufferedReplayCallable']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableInternalHelper.BufferedTimedReplayCallable']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableInternalHelper.ReplayCallable']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-    <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableInternalHelper.TimedReplayCallable']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
+  <add-node path="/api/package[@name='io.reactivex.subjects']/class[@name='Subject']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onNext"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="p0"
+                 type="T">
+      </parameter>
+    </method>
+  </add-node>
+  <add-node path="/api/package[@name='io.reactivex.observers']/class[@name='DefaultObserver']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onNext"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="p0"
+                 type="T">
+      </parameter>
+    </method>
+  </add-node>
+  <add-node path="/api/package[@name='io.reactivex.observers']/class[@name='DisposableObserver']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onNext"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="p0"
+                 type="T">
+      </parameter>
+    </method>
+  </add-node>
+  <add-node path="/api/package[@name='io.reactivex.internal.observers']/class[@name='BasicFuseableObserver']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onNext"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="p0"
+                 type="T">
+      </parameter>
+    </method>
+  </add-node>
+  <add-node path="/api/package[@name='io.reactivex.internal.observers']/class[@name='BlockingBaseObserver']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onNext"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="p0"
+                 type="T">
+      </parameter>
+    </method>
+  </add-node>
+  <add-node path="/api/package[@name='io.reactivex.internal.observers']/class[@name='DeferredScalarObserver']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onNext"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="p0"
+                 type="T">
+      </parameter>
+    </method>
+  </add-node>
+  <add-node path="/api/package[@name='io.reactivex.observers']/class[@name='ResourceObserver']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onNext"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="p0"
+                 type="T">
+      </parameter>
+    </method>
+  </add-node>
+  <add-node path="/api/package[@name='io.reactivex.internal.observers']/class[@name='QueueDrainObserver']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onNext"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="p0"
+                 type="T">
+      </parameter>
+    </method>
+  </add-node>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDelay.DelayObserver.OnError']"
+        name="managedName">ErrorRunnable</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDelay.DelayObserver.OnNext']"
+        name="managedName">NextRunnable</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDelay.DelayObserver.OnComplete']"
+        name="managedName">CompleteRunnable</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='AbstractObservableWithUpstream']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.subscriptions']/class[@name='FullArbiterPad1']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.subscriptions']/class[@name='FullArbiterWip']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.subscriptions']/class[@name='FullArbiterMissed']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.subscriptions']/class[@name='FullArbiterPad0']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.subscriptions']/class[@name='FullArbiterPad2']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.observers']/class[@name='QueueDrainSubscriberPad2']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.observers']/class[@name='QueueDrainSubscriberWip']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.observers']/class[@name='QueueDrainSubscriberPad0']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='AbstractFlowableWithUpstream']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='AbstractMaybeWithUpstream']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.disposables']/class[@name='FullArbiterPad1']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.disposables']/class[@name='FullArbiterPad0']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.disposables']/class[@name='FullArbiterWip']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.schedulers']/class[@name='AbstractDirectTask']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.subscribers']/class[@name='QueueDrainSubscriberPad4']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.subscribers']/class[@name='QueueDrainSubscriberPad3']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.subscribers']/class[@name='QueueDrainSubscriberPad2']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.subscribers']/class[@name='QueueDrainSubscriberPad0']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.subscribers']/class[@name='QueueDrainSubscriberWip']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.subscribers']/class[@name='TestSubscriber']/method[@name='assertNotSubscribed' and count(parameter)=0]"
+        name="managedName">TestAssertNotSubscribed</attr>
+  <attr path="/api/package[@name='io.reactivex.subscribers']/class[@name='TestSubscriber']/method[@name='assertSubscribed' and count(parameter)=0]"
+        name="managedName">TestAssertSubscribed</attr>
+  <attr path="/api/package[@name='io.reactivex.observers']/class[@name='TestObserver']/method[@name='assertNotSubscribed' and count(parameter)=0]"
+        name="managedName">TestAssertNotSubscribed</attr>
+  <attr path="/api/package[@name='io.reactivex.observers']/class[@name='TestObserver']/method[@name='assertSubscribed' and count(parameter)=0]"
+        name="managedName">TestAssertSubscribed</attr>
+  <attr path="/api/package[@name='io.reactivex']/class[@name='Observable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.subjects']/class[@name='AsyncSubject']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.subjects']/class[@name='BehaviorSubject']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.subjects']/class[@name='ReplaySubject']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableAll']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super java.lang.Boolean&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableBufferExactBoundary']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableBufferTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableAny']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super java.lang.Boolean&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableCache']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableCollect']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableBuffer']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableBufferBoundary']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableConcatMapEager']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.subjects']/class[@name='UnicastSubject']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableBufferBoundarySupplier']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDistinct']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDistinctUntilChanged']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDoAfterNext']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex']/class[@name='Completable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.subjects']/class[@name='CompletableSubject']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableCache']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableCreate']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableDefer']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableDelay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableDisposeOn']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFlattenIterable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableEmpty']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super java.lang.Object&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex']/class[@name='Single']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.SingleObserver&lt;? super java.lang.Long&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex']/class[@name='Flowable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDoFinally']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDoOnLifecycle']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.processors']/class[@name='AsyncProcessor']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFromPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableDetach']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFromUnsafeSource']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFlatMapMaybe']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFlatMapSingle']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.processors']/class[@name='BehaviorProcessor']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableJoin']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableCreate']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableGroupBy.GroupedUnicast']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableAll']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super java.lang.Boolean&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableGroupJoin']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableJust']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableHide']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFlatMapCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.processors']/class[@name='ReplayProcessor']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableAny']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super java.lang.Boolean&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFlatMapCompletableCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.processors']/class[@name='UnicastProcessor']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableRepeatWhen']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableNever']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super java.lang.Object&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableObserveOn']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableReplay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableRetryWhen']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservablePublish']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableBufferBoundary']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableReplay.MulticastReplay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableReplay.Replay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservablePublishSelector']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableRange']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super java.lang.Integer&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableRangeLong']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super java.lang.Long&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableDoFinally']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableDoOnEvent']/method[@name='subscrib eActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableBufferBoundarySupplier']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableError']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableErrorSupplier']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromAction']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromCallable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromObservable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableBufferExactBoundary']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromRunnable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromSingle']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableFromUnsafeSource']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableHide']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableLift']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableBufferTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableNever']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableObserveOn']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableOnErrorComplete']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletablePeek']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableResumeNext']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableSubscribeOn']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableTimer']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableCache']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableToFlowable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableToObservable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableCollect']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableUsing']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableConcatArray']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeConcatArray']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDematerialize']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDetach']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeConcatArrayDelayError']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDistinct']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeConcatIterable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableConcatMap']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableSerialized']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDistinctUntilChanged']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDoAfterNext']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDoFinally']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.schedulers']/class[@name='SchedulerWhen.CreateWorkerFunction.WorkerCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableConcatMapEager']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDoOnEach']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDoOnLifecycle']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableElementAt']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableConcatMapEagerPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableTake']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableConcatMapPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableCount']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super java.lang.Long&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeFlatMapCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeFlatMapIterableFlowable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFilter']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeFlatMapIterableObservable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableDoOnEvent']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFlatMap']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFlatMapSingle']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFlatMapCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFlatMapCompletableCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFromObservable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFlatMapMaybe']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFromPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableFlatMapPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableGroupJoin']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableGroupBy']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.flowables.GroupedFlowable&lt;K, V&gt;&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDebounce']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableGroupBy.GroupedUnicast']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDebounceTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableJust']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableHide']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableMap']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableDelay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableMapNotification']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableIgnoreElements']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnBackpressureDrop']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableMapPublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableMaterialize']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.Notification&lt;T&gt;&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnBackpressureError']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableIgnoreElementsCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnBackpressureLatest']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnErrorNext']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnErrorReturn']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnBackpressureBuffer']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowablePublishMulticast']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowablePublish']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowablePublishMulticast.MulticastProcessor']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableOnBackpressureBufferStrategy']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableScan']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableWithLatestFromMany']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.parallel']/class[@name='ParallelJoin']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableScanSeed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableReplay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableJoin']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTake']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableReplay.ConnectableFlowableReplay']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakeLast']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSerialized']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakeLastOne']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSingle']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakeLastTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakePublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakeUntil']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeMergeArray']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSkip']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakeUntilPredicate']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSkipLast']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeIgnoreElementCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTakeWhile']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSkipLastTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableThrottleFirstTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSamplePublisher']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSkipUntil']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTimeInterval']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.schedulers.Timed&lt;T&gt;&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSkipWhile']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTimeout']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableReduce']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.parallel']/class[@name='ParallelReduceFull']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSampleTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableTimeoutTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSwitchIfEmpty']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.parallel']/class[@name='ParallelSortedJoin']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableSwitchMap']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableWindowBoundary']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.Flowable&lt;T&gt;&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableWindowBoundarySupplier']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.Flowable&lt;T&gt;&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableWindowBoundarySelector']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.Flowable&lt;T&gt;&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableWindowTimed']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super io.reactivex.Flowable&lt;T&gt;&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.single']/class[@name='SingleFlatMapCompletable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableToList']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super U&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.single']/class[@name='SingleFlatMapIterableFlowable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableWithLatestFrom']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.single']/class[@name='SingleFlatMapIterableObservable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableUnsubscribeOn']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableWithLatestFromMany']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super R&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeToFlowable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='org.reactivestreams.Subscriber&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.maybe']/class[@name='MaybeToObservable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.ArrayListCapacityCallable']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.HashSetCallable']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.schedulers']/class[@name='Schedulers.ComputationTask']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.schedulers']/class[@name='Schedulers.IOTask']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.schedulers']/class[@name='Schedulers.NewThreadTask']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.schedulers']/class[@name='Schedulers.SingleTask']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableInternalHelper.BufferedReplayCallable']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableInternalHelper.BufferedTimedReplayCallable']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableInternalHelper.ReplayCallable']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableInternalHelper.TimedReplayCallable']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
 
-	<attr path="/api/package[@name='io.reactivex.internal.schedulers']/class[@name='ScheduledDirectTask']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.util']/class[@name='ArrayListSupplier']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.util']/class[@name='HashMapSupplier']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.single']/class[@name='SingleInternalHelper.NoSuchElementCallable']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.BufferedReplayCallable']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.BufferedTimedReplayCallable']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.ReplayCallable']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.TimedCallable']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableReplay.ReplayBufferTask']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableReplay.ScheduledReplayBufferTask']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.schedulers']/class[@name='ScheduledDirectTask']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.util']/class[@name='ArrayListSupplier']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.util']/class[@name='HashMapSupplier']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.single']/class[@name='SingleInternalHelper.NoSuchElementCallable']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.BufferedReplayCallable']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.BufferedTimedReplayCallable']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.ReplayCallable']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.TimedCallable']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableReplay.ReplayBufferTask']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableReplay.ScheduledReplayBufferTask']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
 
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.BufferedTimedReplay']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
-	<attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.TimedReplay']/method[@name='call' and count(parameter)=0]" name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.BufferedTimedReplay']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.TimedReplay']/method[@name='call' and count(parameter)=0]"
+        name="managedName">CallForData</attr>
+  <attr
+    path="/api/package[@name='io.reactivex.internal.operators.single']/class[@name='SingleInternalHelper.ToFlowableIterator']/method[@name='next' and count(parameter)=0]"
+    name="managedName">NextItem</attr>
+  <attr
+    path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableInternalHelper.ObservableMapper']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='T']]"
+    name="managedName">ApplyMapper</attr>
+  <attr
+    path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableInternalHelper.ItemDelayFunction']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='T']]"
+    name="managedName">ApplyMapper</attr>
+  <attr
+    path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableInternalHelper.FlatMapWithCombinerOuter']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='T']]"
+    name="managedName">ApplyMapper</attr>
+  <attr
+    path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableInternalHelper.FlatMapIntoIterable']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='T']]"
+    name="managedName">ApplyMapper</attr>
+  <attr
+    path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.TimestampFunction']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='T']]"
+    name="managedName">ApplyMapper</attr>
+
+  <attr
+    path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.ItemDelayFunction']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='T']]"
+    name="managedName">ApplyMapper</attr>
+
+  <attr
+    path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.FlatMapWithCombinerOuter']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='T']]"
+    name="managedName">ApplyMapper</attr>
+  <attr
+    path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableInternalHelper.FlatMapIntoIterable']/method[@name='apply' and count(parameter)=1 and parameter[1][@type='T']]"
+    name="managedName">ApplyMapper</attr>
+
+  <add-node path="/api/package[@name='io.reactivex.processors']/class[@name='FlowableProcessor']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onSubscribe"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="s"
+                 type="org.reactivestreams.Subscription">
+      </parameter>
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='io.reactivex.internal.subscribers']/class[@name='QueueDrainSubscriber']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onSubscribe"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="s"
+                 type="org.reactivestreams.Subscription">
+      </parameter>
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='io.reactivex.internal.operators.flowable']/class[@name='FlowableObserveOn.BaseObserveOnSubscriber']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onSubscribe"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="s"
+                 type="org.reactivestreams.Subscription">
+      </parameter>
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='io.reactivex.internal.operators.parallel']/class[@name='ParallelFilter.BaseFilterSubscriber']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onSubscribe"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="s"
+                 type="org.reactivestreams.Subscription">
+      </parameter>
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='io.reactivex.internal.operators.parallel']/class[@name='ParallelFilterTry.BaseFilterSubscriber']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onSubscribe"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="s"
+                 type="org.reactivestreams.Subscription">
+      </parameter>
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='io.reactivex.internal.operators.parallel']/class[@name='ParallelRunOn.BaseRunOnSubscriber']">
+    <method abstract="true"
+            deprecated="not deprecated"
+            final="false"
+            name="onSubscribe"
+            native="false"
+            return="void"
+            static="false"
+            synchronized="false"
+            visibility="public">
+      <parameter name="s"
+                 type="org.reactivestreams.Subscription">
+      </parameter>
+    </method>
+  </add-node>
+
 </metadata>
