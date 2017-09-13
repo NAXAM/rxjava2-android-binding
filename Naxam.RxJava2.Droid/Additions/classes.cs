@@ -306,13 +306,7 @@ namespace IO.Reactivex.Internal.Operators.Flowable
                 return (Java.Lang.Object)CallForData();
             }
         }
-        partial class BufferedTimedReplayCallable
-        {
-            public Java.Lang.Object Call()
-            {
-                return (Java.Lang.Object)CallForData();
-            }
-        }
+
         partial class ReplayCallable
         {
             public Java.Lang.Object Call()
@@ -397,7 +391,9 @@ namespace IO.Reactivex.Internal.Operators.Single
         {
             public Java.Lang.Object Call()
             {
-                return (Java.Lang.Object)CallForData();
+                //TODO
+                // return (Java.Lang.Object)CallForData();
+                throw new System.InvalidOperationException("It's an error inside core Xamarin.Android binding: NoSuchElementException couldn't cast to Java.Lang.Object");
             }
         }
     }
@@ -693,4 +689,98 @@ namespace IO.Reactivex.Internal.Operators.Parallel
     }
 }
 
-namespace IO.Reactivex.Internal.Operators.Flowable { partial class SubscribeOnSubscriber { } }
+namespace IO.Reactivex.Internal.Util
+{
+    partial class ArrayListSupplier : IO.Reactivex.Functions.IFunction
+    {
+        Java.Lang.Object IO.Reactivex.Functions.IFunction.Apply(Java.Lang.Object p0)
+        {
+            var list = Apply(p0);
+            return Android.Runtime.JavaList.FromArray<Java.Lang.Object>(System.Linq.Enumerable.ToArray(list));
+        }
+    }
+}
+
+namespace IO.Reactivex.Internal.Operators.Flowable
+{
+    partial class FlowableInternalHelper
+    {
+        partial class ZipIterableFunction : IO.Reactivex.Functions.IFunction
+        {
+            Java.Lang.Object IO.Reactivex.Functions.IFunction.Apply(Java.Lang.Object p0)
+            {
+                var list = Android.Runtime.JavaList<Org.Reactivestreams.IPublisher>.FromJniHandle(p0.Handle, Android.Runtime.JniHandleOwnership.DoNotTransfer);
+
+                return Java.Interop.JavaObjectExtensions.JavaCast<Java.Lang.Object>(Apply(list));
+            }
+
+        }
+    }
+}
+
+namespace IO.Reactivex.Internal.Util
+{
+    partial class SorterFunction : Reactivex.Functions.IFunction
+    {
+        Java.Lang.Object Reactivex.Functions.IFunction.Apply(Java.Lang.Object p0)
+        {
+            var list = Android.Runtime.JavaList.FromJniHandle(p0.Handle, Android.Runtime.JniHandleOwnership.DoNotTransfer);
+            var applied = Apply(list);
+            var handle = Android.Runtime.JavaList.ToLocalJniHandle(applied);
+
+            try
+            {
+                return new Java.Lang.Object(handle, Android.Runtime.JniHandleOwnership.TransferLocalRef);
+            }
+            finally
+            {
+                Android.Runtime.JNIEnv.DeleteLocalRef(handle);
+            }
+        }
+    }
+}
+
+namespace IO.Reactivex.Internal.Util
+{
+    partial class MergerBiFunction : Reactivex.Functions.IBiFunction
+    {
+        Java.Lang.Object Reactivex.Functions.IBiFunction.Apply(Java.Lang.Object p0, Java.Lang.Object p1)
+        {
+            var l0 = Android.Runtime.JavaList.FromJniHandle(p0.Handle, Android.Runtime.JniHandleOwnership.DoNotTransfer);
+            var l1 = Android.Runtime.JavaList.FromJniHandle(p1.Handle, Android.Runtime.JniHandleOwnership.DoNotTransfer);
+
+            var output = Apply(l0, l1);
+
+			var handle = Android.Runtime.JavaList.ToLocalJniHandle(output);
+
+			try
+			{
+				return new Java.Lang.Object(handle, Android.Runtime.JniHandleOwnership.TransferLocalRef);
+			}
+			finally
+			{
+				Android.Runtime.JNIEnv.DeleteLocalRef(handle);
+			}
+        }
+    }
+	partial class ListAddBiConsumer : Reactivex.Functions.IBiFunction
+	{
+		Java.Lang.Object Reactivex.Functions.IBiFunction.Apply(Java.Lang.Object p0, Java.Lang.Object p1)
+		{
+            var l0 = Android.Runtime.JavaList.FromJniHandle(p0.Handle, Android.Runtime.JniHandleOwnership.DoNotTransfer);
+
+			var output = Apply(l0, p1);
+
+			var handle = Android.Runtime.JavaList.ToLocalJniHandle(output);
+
+			try
+			{
+				return new Java.Lang.Object(handle, Android.Runtime.JniHandleOwnership.TransferLocalRef);
+			}
+			finally
+			{
+				Android.Runtime.JNIEnv.DeleteLocalRef(handle);
+			}
+		}
+	}
+}
