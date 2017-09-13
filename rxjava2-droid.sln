@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.RxJava2.Droid", "Naxam.RxJava2.Droid\Naxam.RxJava2.Droid.csproj", "{4ED73F16-DA29-4778-B8A7-36A4DB802D01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ED73F16-DA29-4778-B8A7-36A4DB802D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED73F16-DA29-4778-B8A7-36A4DB802D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED73F16-DA29-4778-B8A7-36A4DB802D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED73F16-DA29-4778-B8A7-36A4DB802D01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

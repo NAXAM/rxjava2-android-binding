@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.RxJava2.Droid</id>
+        <version>2.1.2</version>
+        <description>Xamarin Binding Library - RxJava2</description>
+        <authors>Vu Duc Tuyen</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - RxJava2 for Android</title>
+        <releaseNotes>RxJava2 v2.1.2</releaseNotes>
+        <summary>Xamarin Binding Library - RxJava2</summary>
+        <iconUrl>https://avatars1.githubusercontent.com/u/25535951</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/rxjava2-android-binding</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, rxjava2</tags>
+        <dependencies>
+            <dependency id="Naxam.ReactiveStreams.Droid" version="1.0.0" />
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.RxJava2.Droid/bin/Release/Naxam.RxJava2.Droid.dll" target="lib/MonoAndroid10/Naxam.RxJava2.Droid.dll" />
+    </files>
+</package>
